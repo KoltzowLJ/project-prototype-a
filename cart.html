@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <?php
+            include('db.php');
+            $storeInfo = $conn->query("SELECT * FROM store_info")->fetch_assoc();
+            echo "<img src='" . $storeInfo['logo_url'] . "' alt='SimplicityTech'>";
+            ?>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="checkout.html">Checkout</a></li>
+                <li><a href="categories.html">Categories</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="cart">
+            <h1>Shopping Cart</h1>
+            <div class="cart-list">
+                <!-- Cart items will be dynamically inserted here -->
+            </div>
+            <div class="cart-total">
+                <h2>Total: $<span id="cart-total">0.00</span></h2>
+            </div>
+            <div class="cart-actions">
+                <a href="checkout.html" class="btn">Proceed to Checkout</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 SimplicityTech. All rights reserved.</p>
+    </footer>
+    <script src="assets/js/cart.js"></script>
+</body>
+</html>
