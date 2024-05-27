@@ -25,59 +25,21 @@ $user_id = isset($_SESSION['user_id']) ? $_SESSION['user_id'] : '';
 <?php include 'components/user_header.php'; ?>
 
 <section class="about">
-   <div class="row">
-      <div class="image">
-         <img src="images/about-img.svg" alt="About Image">
-      </div>
-      <div class="content">
-         <h3>Why Choose Us?</h3>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam veritatis minus et similique doloribus? Harum molestias tenetur eaque illum quas? Obcaecati nulla in itaque modi magnam ipsa molestiae ullam consequuntur.</p>
-         <a href="contact.php" class="btn">Contact Us</a>
-      </div>
+   <h3>About Us</h3>
+   <div class="image">
+      <img src="images/about-img.svg" alt="About Image">
+   </div>
+   <div class="content">
+      <p>The information about the business will come here.</p>
+      <a href="contact.php" class="btn">Contact Us</a>
    </div>
 </section>
 
-<section class="reviews">
-   <h1 class="heading">Client's Reviews</h1>
-   <div class="swiper reviews-slider">
-      <div class="swiper-wrapper">
-         <div class="swiper-slide slide">
-            <img src="images/pic-1.png" alt="Client 1">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia tempore distinctio hic, iusto adipisci a rerum nemo perspiciatis fugiat sapiente.</p>
-            <div class="stars">
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star-half-alt"></i>
-            </div>
-            <h3>John Deo</h3>
-         </div>
-         <!-- Repeat similar blocks for other reviews -->
-      </div>
-      <div class="swiper-pagination"></div>
-   </div>
-</section>
 
 <?php include 'components/footer.php'; ?>
 
 <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 <script src="assets/js/script.js"></script>
-<script>
-var swiper = new Swiper(".reviews-slider", {
-   loop: true,
-   spaceBetween: 20,
-   pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-   },
-   breakpoints: {
-      0: { slidesPerView: 1 },
-      768: { slidesPerView: 2 },
-      991: { slidesPerView: 3 },
-   },
-});
-</script>
 
 </body>
 </html>
