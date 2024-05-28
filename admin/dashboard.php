@@ -1,17 +1,3 @@
-<?php
-
-include '../components/connect.php';
-
-session_start();
-
-$admin_id = $_SESSION['admin_id'];
-
-if(!isset($admin_id)){
-   header('location:admin_login.php');
-}
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -62,13 +48,13 @@ if(!isset($admin_id)){
       </div>
 
       <div class="box">
-         <h3><span>$</span>500<span>/-</span></h3>
+         <h3><span>R</span>111.99<span>/-</span></h3>
          <p>Total Pendings</p>
          <a href="placed_orders.php" class="btn">See Orders</a>
       </div>
 
       <div class="box">
-         <h3><span>$</span>1500<span>/-</span></h3>
+         <h3><span>R</span>223.98<span>/-</span></h3>
          <p>Completed Orders</p>
          <a href="placed_orders.php" class="btn">See Orders</a>
       </div>

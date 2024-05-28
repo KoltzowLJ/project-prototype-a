@@ -417,3 +417,241 @@ body {
       grid-template-columns: 1fr;
    }
 }
+
+/* Orders Section Styles */
+.orders {
+   padding: 2rem;
+}
+
+.orders .heading {
+   font-size: 2rem;
+   color: var(--black);
+   margin-bottom: 2rem;
+   text-align: center;
+}
+
+.orders .box-container {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+   gap: 2rem;
+}
+
+.orders .box {
+   background-color: var(--white);
+   padding: 2rem;
+   box-shadow: var(--box-shadow);
+   text-align: center;
+   border-radius: 0.5rem;
+}
+
+.orders .box p {
+   font-size: 1.2rem;
+   color: var(--black);
+   margin-bottom: 0.5rem;
+}
+
+.orders .box span {
+   font-weight: bold;
+   color: var(--main-color);
+}
+
+.orders .box form {
+   margin-top: 1rem;
+}
+
+.orders .box .select {
+   width: 100%;
+   padding: 0.5rem;
+   margin-bottom: 1rem;
+   border: var(--border);
+   border-radius: 0.5rem;
+}
+
+.orders .box .flex-btn {
+   display: flex;
+   justify-content: space-between;
+}
+
+.orders .box .option-btn,
+.orders .box .delete-btn {
+   padding: 0.5rem 1rem;
+   border-radius: 0.5rem;
+   color: var(--white);
+   background-color: var(--main-color);
+   text-decoration: none;
+   text-align: center;
+}
+
+.orders .box .delete-btn {
+   background-color: #e74c3c;
+}
+
+.orders .box .option-btn:hover,
+.orders .box .delete-btn:hover {
+   background-color: var(--black);
+}
+
+/* Add Products Section */
+.add-products {
+   padding: 2rem;
+}
+
+.add-products .heading {
+   font-size: 2rem;
+   color: var(--black);
+   margin-bottom: 2rem;
+   text-align: center;
+}
+
+.add-products .flex {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 2rem;
+}
+
+.add-products .inputBox {
+   flex: 1 1 300px;
+}
+
+.add-products .box {
+   width: 100%;
+   padding: 1rem;
+   margin-bottom: 1rem;
+}
+
+.add-products .btn {
+   display: block;
+   width: 100%;
+   padding: 1rem;
+   border: none;
+   background-color: var(--main-color);
+   color: var(--white);
+   border-radius: 0.5rem;
+   cursor: pointer;
+}
+
+.add-products .btn:hover {
+   background-color: var(--black);
+}
+
+/* Show Products Section */
+.show-products {
+   padding: 2rem;
+}
+
+.show-products .heading {
+   font-size: 2rem;
+   color: var(--black);
+   margin-bottom: 2rem;
+   text-align: center;
+}
+
+.show-products .box-container {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+   gap: 2rem;
+}
+
+.show-products .box {
+   background-color: var(--white);
+   padding: 2rem;
+   box-shadow: var(--box-shadow);
+   text-align: center;
+   border-radius: 0.5rem;
+}
+
+.show-products .box img {
+   width: 100%;
+   height: auto;
+   margin-bottom: 1rem;
+}
+
+.show-products .box .name,
+.show-products .box .price,
+.show-products .box .details {
+   font-size: 1.2rem;
+   color: var(--black);
+   margin-bottom: 0.5rem;
+}
+
+.show-products .box .flex-btn {
+   display: flex;
+   justify-content: space-between;
+   gap: 1rem;
+}
+
+.show-products .box .option-btn,
+.show-products .box .delete-btn {
+   padding: 0.5rem 1rem;
+   border-radius: 0.5rem;
+   color: var(--white);
+   background-color: var(--main-color);
+   text-decoration: none;
+}
+
+.show-products .box .delete-btn {
+   background-color: #e74c3c;
+}
+
+.show-products .box .option-btn:hover,
+.show-products .box .delete-btn:hover {
+   background-color: var(--black);
+}
+
+/* Update Product Styles */
+.update-product .heading {
+   text-align: center;
+   font-size: 2rem;
+   color: var(--black);
+   margin-bottom: 2rem;
+}
+
+.update-product .box {
+   display: block;
+   width: 100%;
+   padding: 1rem;
+   margin-bottom: 1rem;
+   border: var(--border);
+   border-radius: 0.5rem;
+   font-size: 1rem;
+}
+
+.update-product .btn,
+.update-product .option-btn {
+   display: inline-block;
+   padding: 0.5rem 1rem;
+   margin-right: 1rem;
+   border-radius: 0.5rem;
+   color: var(--white);
+   background-color: var(--main-color);
+   text-decoration: none;
+   cursor: pointer;
+}
+
+.update-product .btn:hover,
+.update-product .option-btn:hover {
+   background-color: var(--black);
+}
+
+.image-container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-bottom: 2rem;
+}
+
+.image-container .main-image img {
+   width: 100%;
+   max-width: 300px;
+   margin-bottom: 1rem;
+}
+
+.image-container .sub-image img {
+   width: 100px;
+   margin-right: 1rem;
+}
+
+.image-container .sub-image {
+   display: flex;
+}
+

@@ -1,24 +1,3 @@
-<?php
-
-include '../components/connect.php';
-
-session_start();
-
-$admin_id = $_SESSION['admin_id'];
-
-if(!isset($admin_id)){
-   header('location:admin_login.php');
-};
-
-if(isset($_GET['delete'])){
-   $delete_id = $_GET['delete'];
-   $delete_message = $conn->prepare("DELETE FROM `messages` WHERE id = ?");
-   $delete_message->execute([$delete_id]);
-   header('location:messages.php');
-}
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -78,6 +57,12 @@ if(isset($_GET['delete'])){
 </section>
 
 <script src="../assets/js/admin_script.js"></script>
+
+<script>
+document.getElementById('user-btn').addEventListener('click', function() {
+   document.querySelector('.profile').classList.toggle('active');
+});
+</script>
 
 </body>
 </html>
