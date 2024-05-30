@@ -792,3 +792,42 @@
      flex: 1 1 100%;
    }
  }
+
+ /* Media Queries */
+@media (max-width: 768px) {
+  .header .navbar {
+      display: none;
+  }
+
+  .header .navbar.active {
+      display: block;
+  }
+
+  .about .row {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .about .row .image,
+  .about .row .content {
+      flex: 1 1 100%;
+  }
+
+  .home-products .swiper-slide .flex {
+      flex-direction: column;
+  }
+}
+
+@media (max-width: 450px) {
+  .about .row .content h3 {
+      font-size: 2rem;
+  }
+
+  .reviews .heading {
+      font-size: 2.5rem;
+  }
+
+  .footer .box {
+      flex: 1 1 100%;
+  }
+}
