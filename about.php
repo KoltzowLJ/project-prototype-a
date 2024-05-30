@@ -17,7 +17,7 @@
 <section class="about">
    <h3>About Us</h3>
    <div class="image">
-      <img src="images/about-img.svg" alt="About Image">
+      <img src="assets/images/about-img.jpg" alt="About Image">
    </div>
    <div class="content">
       <p>The information about the business will come here.</p>

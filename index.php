@@ -20,7 +20,7 @@
    <div class="products-grid">
       <!-- Product 1 -->
       <div class="product-card">
-         <img src="images/product-1.jpg" alt="Product 1">
+         <img src="assets/images/product-1.jpg" alt="Product 1">
          <div class="content">
             <h3>Product 1</h3>
             <p>This will be product 1.</p>
@@ -30,7 +30,7 @@
       </div>
       <!-- Product 2 -->
       <div class="product-card">
-         <img src="images/product-2.jpg" alt="Product 2">
+         <img src="assets/images/product-2.jpg" alt="Product 2">
          <div class="content">
             <h3>Product 2</h3>
             <p>This will be product 2.</p>
@@ -40,7 +40,7 @@
       </div>
       <!-- Product 3 -->
       <div class="product-card">
-         <img src="images/product-3.jpg" alt="Product 3">
+         <img src="assets/images/product-3.jpg" alt="Product 3">
          <div class="content">
             <h3>Product 3</h3>
             <p>This will be product 3.</p>
@@ -50,7 +50,7 @@
       </div>
       <!-- Product 4 -->
       <div class="product-card">
-         <img src="images/product-4.jpg" alt="Product 4">
+         <img src="assets/images/product-4.jpg" alt="Product 4">
          <div class="content">
             <h3>Product 4</h3>
             <p>This will be product 4.</p>

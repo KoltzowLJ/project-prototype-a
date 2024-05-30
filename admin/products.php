@@ -52,7 +52,7 @@
    <h1 class="heading">Products Added</h1>
    <div class="box-container">
       <div class="box">
-         <img src="../uploaded_img/example1.jpg" alt="Product Image">
+         <img src="../assets/images/product-1.jpg" alt="Product Image">
          <div class="name">Example Product 1</div>
          <div class="price">$100</div>
          <div class="details">Example details about product 1</div>
@@ -62,7 +62,7 @@
          </div>
       </div>
       <div class="box">
-         <img src="../uploaded_img/example2.jpg" alt="Product Image">
+         <img src="../assets/images/product-2.jpg" alt="Product Image">
          <div class="name">Example Product 2</div>
          <div class="price">$200</div>
          <div class="details">Example details about product 2</div>
@@ -72,7 +72,7 @@
          </div>
       </div>
       <div class="box">
-         <img src="../uploaded_img/example3.jpg" alt="Product Image">
+         <img src="../assets/images/product-3.jpg" alt="Product Image">
          <div class="name">Example Product 3</div>
          <div class="price">$300</div>
          <div class="details">Example details about product 3</div>
