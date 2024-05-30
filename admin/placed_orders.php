@@ -24,9 +24,9 @@
       <!-- Example Order 1 -->
       <div class="box">
          <p>Placed on: <span>2024-05-25</span></p>
-         <p>Name: <span>John Doe</span></p>
-         <p>Number: <span>1234567890</span></p>
-         <p>Address: <span>123 Main St, City, Country</span></p>
+         <p>Name: <span>Sheen Been</span></p>
+         <p>Number: <span>+27 12 345 6789</span></p>
+         <p>Address: <span>123 Bar Street, Halloberg, South Africa</span></p>
          <p>Total Products: <span>3</span></p>
          <p>Total Price: <span>R335.97</span></p>
          <p>Payment Method: <span>Credit Card</span></p>
@@ -47,9 +47,9 @@
       <!-- Example Order 2 -->
       <div class="box">
          <p>Placed on: <span>2024-05-24</span></p>
-         <p>Name: <span>Jane Smith</span></p>
-         <p>Number: <span>0987654321</span></p>
-         <p>Address: <span>456 Another St, City, Country</span></p>
+         <p>Name: <span>Dane Bane</span></p>
+         <p>Number: <span>+27 12 345 6789</span></p>
+         <p>Address: <span>123 Far Street, Benoni, South Africa</span></p>
          <p>Total Products: <span>5</span></p>
          <p>Total Price: <span>R559.95</span></p>
          <p>Payment Method: <span>PayPal</span></p>
@@ -70,9 +70,9 @@
       <!-- Example Order 3 -->
       <div class="box">
          <p>Placed on: <span>2024-05-23</span></p>
-         <p>Name: <span>Mike Johnson</span></p>
-         <p>Number: <span>1122334455</span></p>
-         <p>Address: <span>789 Another Ave, City, Country</span></p>
+         <p>Name: <span>Mon Som</span></p>
+         <p>Number: <span>+27 12 345 6789</span></p>
+         <p>Address: <span>123 Balloon Street, Clowntown, South Africa</span></p>
          <p>Total Products: <span>2</span></p>
          <p>Total Price: <span>R223.98</span></p>
          <p>Payment Method: <span>Cash on Delivery</span></p>

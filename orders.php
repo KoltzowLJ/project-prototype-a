@@ -24,11 +24,11 @@
       <!-- Example Order 1 -->
       <div class="box">
       <p>Placed on: <span>2023-04-25</span></p>
-         <p>Name: <span>Jane Smith</span></p>
-         <p>Email: <span>janesmith@example.com</span></p>
-         <p>Number: <span>+0987654321</span></p>
-         <p>Address: <span>456 Another St, Anycity, USA</span></p>
-         <p>Payment Method: <span>PayPal</span></p>
+         <p>Name: <span>Pierre Clear</span></p>
+         <p>Email: <span>pearre.clear@example.com</span></p>
+         <p>Number: <span>+27 12 345 6789</span></p>
+         <p>Address: <span>123 Nog Straat, Daar, South Africa</span></p>
+         <p>Payment Method: <span>Credit Card</span></p>
          <p>Your Orders: <span>1 items</span></p>
          <p>Total Price: <span>R111.99</span></p>
          <p>Payment Status: <span style="color:green;">Completed</span></p>
@@ -37,10 +37,10 @@
       <!-- Example Order 2 -->
       <div class="box">
          <p>Placed on: <span>2023-04-25</span></p>
-         <p>Name: <span>Jane Smith</span></p>
-         <p>Email: <span>janesmith@example.com</span></p>
-         <p>Number: <span>+0987654321</span></p>
-         <p>Address: <span>456 Another St, Anycity, USA</span></p>
+         <p>Name: <span>Sally Pally</span></p>
+         <p>Email: <span>sally.pally@example.com</span></p>
+         <p>Number: <span>+27 12 345 6789</span></p>
+         <p>Address: <span>123 Skip Street, Sea, South Africa</span></p>
          <p>Payment Method: <span>PayPal</span></p>
          <p>Your Orders: <span>2 items</span></p>
          <p>Total Price: <span>R223.98</span></p>

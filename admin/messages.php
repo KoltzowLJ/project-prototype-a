@@ -25,9 +25,9 @@
       <!-- Example Message 1 -->
       <div class="box">
          <p> user id : <span>1</span></p>
-         <p> name : <span>John Doe</span></p>
-         <p> email : <span>johndoe@example.com</span></p>
-         <p> number : <span>1234567890</span></p>
+         <p> name : <span>Danie Vanie</span></p>
+         <p> email : <span>danie.vanie@example.com</span></p>
+         <p> number : <span>+27 12 345 6789</span></p>
          <p> message : <span>Hello, I have a question about...</span></p>
          <a href="messages.php?delete=1" onclick="return confirm('delete this message?');" class="delete-btn">Delete</a>
       </div>
@@ -35,9 +35,9 @@
       <!-- Example Message 2 -->
       <div class="box">
          <p> user id : <span>2</span></p>
-         <p> name : <span>Jane Smith</span></p>
-         <p> email : <span>janesmith@example.com</span></p>
-         <p> number : <span>0987654321</span></p>
+         <p> name : <span>Stollie Mollie</span></p>
+         <p> email : <span>stollie.mollie@example.com</span></p>
+         <p> number : <span>+27 12 345 6789</span></p>
          <p> message : <span>I need help with my order...</span></p>
          <a href="messages.php?delete=2" onclick="return confirm('delete this message?');" class="delete-btn">Delete</a>
       </div>
@@ -45,9 +45,9 @@
       <!-- Example Message 3 -->
       <div class="box">
          <p> user id : <span>3</span></p>
-         <p> name : <span>Mike Johnson</span></p>
-         <p> email : <span>mikejohnson@example.com</span></p>
-         <p> number : <span>1122334455</span></p>
+         <p> name : <span>Bor Tor</span></p>
+         <p> email : <span>bor.tor@example.com</span></p>
+         <p> number : <span>+27 12 345 6789</span></p>
          <p> message : <span>Can you provide more details about...</span></p>
          <a href="messages.php?delete=3" onclick="return confirm('delete this message?');" class="delete-btn">Delete</a>
       </div>

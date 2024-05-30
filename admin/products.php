@@ -53,9 +53,9 @@
    <div class="box-container">
       <div class="box">
          <img src="../assets/images/product-1.jpg" alt="Product Image">
-         <div class="name">Example Product 1</div>
-         <div class="price">$100</div>
-         <div class="details">Example details about product 1</div>
+         <div class="name">Product 1</div>
+         <div class="price">R111.99</div>
+         <div class="details">Details about product 1</div>
          <div class="flex-btn">
             <a href="update_product.php?update=1" class="option-btn">Update</a>
             <a href="products.php?delete=1" class="delete-btn" onclick="return confirm('delete this product?');">Delete</a>
@@ -63,9 +63,9 @@
       </div>
       <div class="box">
          <img src="../assets/images/product-2.jpg" alt="Product Image">
-         <div class="name">Example Product 2</div>
-         <div class="price">$200</div>
-         <div class="details">Example details about product 2</div>
+         <div class="name">Product 2</div>
+         <div class="price">R111.99</div>
+         <div class="details">Details about product 2</div>
          <div class="flex-btn">
             <a href="update_product.php?update=2" class="option-btn">Update</a>
             <a href="products.php?delete=2" class="delete-btn" onclick="return confirm('delete this product?');">Delete</a>
@@ -73,9 +73,9 @@
       </div>
       <div class="box">
          <img src="../assets/images/product-3.jpg" alt="Product Image">
-         <div class="name">Example Product 3</div>
-         <div class="price">$300</div>
-         <div class="details">Example details about product 3</div>
+         <div class="name">Product 3</div>
+         <div class="price">R111.99</div>
+         <div class="details">Details about product 3</div>
          <div class="flex-btn">
             <a href="update_product.php?update=3" class="option-btn">Update</a>
             <a href="products.php?delete=3" class="delete-btn" onclick="return confirm('delete this product?');">Delete</a>
